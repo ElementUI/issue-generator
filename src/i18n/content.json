@@ -2,10 +2,18 @@
   {
     "lang": "zh-CN",
     "repoSelectHint": "选择要提交 issue 的库",
-    "repos": {
-      "Element UI": "element-ui",
-      "Mint UI": "mint-ui"
-    },
+    "repos": [
+      {
+        "name": "Element UI",
+        "github": "ElemeFE/element",
+        "npm": "element-ui"
+      },
+      {
+        "name": "Mint UI",
+        "github": "ElemeFE/mint-ui",
+        "npm": "mint-ui"
+      }
+    ],
     "issueTitleHint": "Issue 标题",
     "issueTypesHint": "Issue 类别",
     "issueTypes": [
@@ -82,10 +90,18 @@
   {
     "lang": "en-US",
     "repoSelectHint": "I am opening an issue for",
-    "repos": {
-      "Element UI": "element-ui",
-      "Mint UI": "mint-ui"
-    },
+    "repos": [
+      {
+        "name": "Element UI",
+        "github": "ElemeFE/element",
+        "npm": "element-ui"
+      },
+      {
+        "name": "Mint UI",
+        "github": "ElemeFE/mint-ui",
+        "npm": "mint-ui"
+      }
+    ],
     "issueTitleHint": "Issue Title",
     "issueTypesHint": "Issue Type",
     "issueTypes": [
