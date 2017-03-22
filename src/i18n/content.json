@@ -36,6 +36,10 @@
           "link": "https://github.com/ElemeFE/element/blob/dev/FAQ.md#常见问题"
         },
         {
+          "desc": "SegmentFault：",
+          "link": "https://segmentfault.com/t/element"
+        },
+        {
           "desc": "Gitter：",
           "link": "https://gitter.im/ElemeFE/element"
         }
@@ -122,6 +126,10 @@
         {
           "desc": "FAQ: ",
           "link": "https://github.com/ElemeFE/element/blob/dev/FAQ.md#faq"
+        },
+        {
+          "desc": "SegmentFault: ",
+          "link": "https://segmentfault.com/t/element"
         },
         {
           "desc": "Gitter: ",
