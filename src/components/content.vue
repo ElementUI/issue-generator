@@ -258,10 +258,10 @@ ${this.form.expect}
 ${this.form.actual}
 `.trim() : `
 ### Existing Component
-${this.form.existingComponent}
+${this.form.existingComponent ? this.contents.existingComponentYes : this.contents.existingComponentNo}
 
 ### Component Name
-${this.form.componentName || 'None'}
+${this.form.componentName}
 
 ### Description
 ${this.form.desc}
