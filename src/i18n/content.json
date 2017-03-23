@@ -81,7 +81,8 @@
       "steps": "请填写重现步骤",
       "expect": "请填写期待的行为",
       "actual": "请填写实际的表现",
-      "desc": " 请填写描述"
+      "desc": " 请填写描述",
+      "componentName": "请填写组件名"
     },
     "loadingText": "加载中",
     "noMatchText": "无匹配数据",
@@ -90,9 +91,9 @@
       "title": "Issue 预览",
       "button": "创建"
     },
-    "existedComponentHint": "是否是已有组件？",
-    "existedComponentYes": "是",
-    "existedComponentNo": "否",
+    "existingComponentHint": "是否是已有组件？",
+    "existingComponentYes": "是",
+    "existingComponentNo": "否",
     "componentNameHint": "组件名"
   },
   {
@@ -177,7 +178,8 @@
       "steps": "Please provide steps to reproduce.",
       "expect": "Please provide what is expected?",
       "actual": "Please provide what is actually happening?",
-      "desc": " Please provide description."
+      "desc": " Please provide description.",
+      "componentName": "Please provide the name of component."
     },
     "loadingText": "loading",
     "noMatchText": "no matching data",
@@ -186,9 +188,9 @@
       "title": "Issue Preview",
       "button": "Create"
     },
-    "existedComponentHint": "Existed component?",
-    "existedComponentYes": "Yes",
-    "existedComponentNo": "No",
+    "existingComponentHint": "Existing component?",
+    "existingComponentYes": "Yes",
+    "existingComponentNo": "No",
     "componentNameHint": "Component Name"
   }
 ]

@@ -59,11 +59,11 @@
               el-input(type="textarea", v-model="form.actual", :autosize="{ minRows: 5, maxRows: 10 }")
 
           template(v-else)
-            el-form-item(:label="contents.existedComponentHint", prop="existedComponent")
-              el-radio(v-model="form.existedComponent", :label="true") {{ contents.existedComponentYes }}
-              el-radio(v-model="form.existedComponent", :label="false") {{ contents.existedComponentNo }}
+            el-form-item(:label="contents.existingComponentHint", prop="existingComponent")
+              el-radio(v-model="form.existingComponent", :label="true") {{ contents.existingComponentYes }}
+              el-radio(v-model="form.existingComponent", :label="false") {{ contents.existingComponentNo }}
 
-            el-form-item(:label="contents.componentNameHint")
+            el-form-item(:label="contents.componentNameHint", prop="componentName")
               el-input(v-model="form.componentName")
 
             el-form-item(:label="contents.descHint", prop="desc")
@@ -118,7 +118,7 @@
           steps: '',
           expected: '',
           actual: '',
-          existedComponent: true,
+          existingComponent: true,
           componentName: ''
         },
         show: false,
@@ -257,8 +257,8 @@ ${this.form.expect}
 ### What is actually happening?
 ${this.form.actual}
 `.trim() : `
-### Existed Component
-${this.form.existedComponent}
+### Existing Component
+${this.form.existingComponent}
 
 ### Component Name
 ${this.form.componentName || 'None'}
