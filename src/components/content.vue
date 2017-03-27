@@ -105,9 +105,17 @@
     name: 'content',
 
     data () {
+      const { repo } = this.$route.query
+      let queryRepo = ''
+      if (repo === 'element') {
+        queryRepo = 'Element UI'
+      } else if (repo === 'mint') {
+        queryRepo = 'Mint UI'
+      }
+
       return {
         form: {
-          repo: '',
+          repo: queryRepo,
           title: '',
           type: '',
           desc: '',
@@ -120,6 +128,9 @@
           actual: '',
           existingComponent: true,
           componentName: ''
+        },
+        query: {
+          repo: queryRepo
         },
         show: false,
         loading: {
@@ -201,7 +212,7 @@ ${comment}
         handler () {
           this.$nextTick(() => {
             this.$refs.form.resetFields()
-            this.form.repo = this.contents.repos[0].name
+            this.form.repo = this.query.repo || this.contents.repos[0].name
             this.form.versionRepository = this.version.repo[0]
             this.form.versionVue = this.version.vue[0]
             this.form.type = this.contents.issueTypes[0]
@@ -213,6 +224,13 @@ ${comment}
       'form.repo': {
         handler () {
           this.fetchRepositoryVersion()
+        },
+        immediate: true
+      },
+
+      '$route.query': {
+        handler (val) {
+
         },
         immediate: true
       }
