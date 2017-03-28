@@ -178,6 +178,20 @@
           ]
         }
 
+        rules['reproduce'].push({
+          trigger: 'blur',
+          validator: (rule, val, cb) => {
+            if (/(github|jsfiddle|codepen|jsbin)/ig.test(val)) {
+              cb()
+            } else {
+              cb({
+                'zh-CN': '请填写正确的重现链接',
+                'en-US': 'Please provide correct link'
+              }[this.lang])
+            }
+          }
+        })
+
         return rules
       },
 
