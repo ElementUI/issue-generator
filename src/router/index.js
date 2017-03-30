@@ -4,7 +4,7 @@ import Content from '@/components/content'
 
 Vue.use(Router)
 
-const lang = window.navigator.language
+const lang = window.navigator.language === 'zh-CN' ? 'zh-CN' : 'en-US'
 
 export default new Router({
   routes: [
