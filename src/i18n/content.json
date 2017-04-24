@@ -1,6 +1,7 @@
 [
   {
     "lang": "zh-CN",
+    "intro": "Hi，我们为了中文用户的方便提供了中文的表单，但在填写时请<strong>尽量使用英文</strong>。Element 的社区有很多国外用户，如果你希望尽可能多的人能够看懂你的 issue，就请尽量用英文。",
     "repoSelectHint": "选择要提交 issue 的库",
     "repos": [
       {
@@ -98,6 +99,7 @@
   },
   {
     "lang": "en-US",
+    "intro": "",
     "repoSelectHint": "I am opening an issue for",
     "repos": [
       {
@@ -133,12 +135,8 @@
           "link": "https://github.com/ElemeFE/element/blob/dev/FAQ.md#faq"
         },
         {
-          "desc": "SegmentFault: ",
-          "link": "https://segmentfault.com/t/element"
-        },
-        {
           "desc": "Gitter: ",
-          "link": "https://gitter.im/ElemeFE/element"
+          "link": "https://gitter.im/element-en/Lobby"
         }
       ],
       "Mint UI": [

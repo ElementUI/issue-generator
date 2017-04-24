@@ -2,6 +2,7 @@
   main
     el-row(type="flex", justify="center")
       el-col(:xs=18, :sm=18, :md=12)
+        p(v-html="contents.intro")
         el-form(ref="form", :model="form", :rules="rules", label-position="top")
 
           el-form-item(:label="contents.repoSelectHint", prop="repo")
