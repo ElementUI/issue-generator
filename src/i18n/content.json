@@ -63,6 +63,10 @@
       {
         "name": "jsfiddle",
         "link": "https://jsfiddle.net/mmx38qxw/"
+      },
+      {
+        "name": "codepen",
+        "link": "https://codepen.io/pen"
       }
     ],
     "stepsHint": "重现步骤",
@@ -157,6 +161,10 @@
       {
         "name": "jsfiddle",
         "link": "https://jsfiddle.net/mmx38qxw/"
+      },
+      {
+        "name": "codepen",
+        "link": "https://codepen.io/pen"
       }
     ],
     "stepsHint": "Steps to reproduce",
