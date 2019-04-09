@@ -23,7 +23,7 @@
                 ul
                   li(v-for="l in contents.links[form.repo]", key="l.link")
                     span(v-text="l.desc")
-                    a(:href="l.link", v-text="l.link")
+                    a(:href="l.link", v-text="l.link", target="_blank")
                 b(v-text="contents.issueHint")
 
             el-form-item(:label="contents.versionRepositoryHint", prop="versionRepository")
@@ -45,7 +45,7 @@
                 p(v-text="contents.reproduceHintSamll")
                 ul
                   li(v-for="l in contents.reproduceLinks")
-                    a(:href="l.link", v-text="l.name")
+                    a(:href="l.link", v-text="l.name", target="_blank")
 
             el-form-item(:label="contents.stepsHint", prop="steps")
               el-input(type="textarea", v-model="form.steps", :autosize="{ minRows: 5, maxRows: 10 }")
