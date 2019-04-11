@@ -279,7 +279,7 @@ ${this.form.versionBrowser}
 ${this.form.versionVue}
 
 ### Reproduction Link
-[${this.form.reproduce}](${this.form.reproduce})
+<a href="${this.form.reproduce}" target="_blank">${this.form.reproduce}</a>
 
 ### Steps to reproduce
 ${this.form.steps}
