@@ -1,2 +1,2 @@
 # issue-generator
-online issue generator for Element and Mint UI
+online issue generator for Element and Element Plus
