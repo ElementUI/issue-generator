@@ -10,9 +10,9 @@
         "npm": "element-ui"
       },
       {
-        "name": "Mint UI",
-        "github": "ElemeFE/mint-ui",
-        "npm": "mint-ui"
+        "name": "Element Plus",
+        "github": "element-plus/element-plus",
+        "npm": "element-plus"
       }
     ],
     "issueTitleHint": "Issue 标题",
@@ -45,10 +45,10 @@
           "link": "https://gitter.im/ElemeFE/element"
         }
       ],
-      "Mint UI": [
+      "Element Plus": [
         {
           "desc": "官网：",
-          "link": "https://github.com/ElemeFE/mint-ui"
+          "link": "https://github.com/element-plus/element-plus"
         }
       ]
     },
@@ -112,9 +112,9 @@
         "npm": "element-ui"
       },
       {
-        "name": "Mint UI",
-        "github": "ElemeFE/mint-ui",
-        "npm": "mint-ui"
+        "name": "Element Plus",
+        "github": "element-plus/element-plus",
+        "npm": "element-plus"
       }
     ],
     "issueTitleHint": "Issue Title",
@@ -143,10 +143,10 @@
           "link": "https://gitter.im/element-en/Lobby"
         }
       ],
-      "Mint UI": [
+      "Element Plus": [
         {
           "desc": "HomePage: ",
-          "link": "https://github.com/ElemeFE/mint-ui"
+          "link": "https://github.com/element-plus/element-plus"
         }
       ]
     },

@@ -1,7 +1,7 @@
 {
   "name": "issue-generator",
   "version": "0.0.1",
-  "description": "Online issue generator for Element and Mint UI",
+  "description": "Online issue generator for Element and Element Plus",
   "author": "Liril <god@liril.net>",
   "private": true,
   "scripts": {
