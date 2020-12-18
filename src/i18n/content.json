@@ -7,12 +7,32 @@
       {
         "name": "Element UI",
         "github": "ElemeFE/element",
-        "npm": "element-ui"
+        "npm": "element-ui",
+        "reproduceLinks": [
+          {
+            "name": "jsfiddle",
+            "link": "https://jsfiddle.net/mmx38qxw/"
+          },
+          {
+            "name": "codepen",
+            "link": "https://codepen.io/ziyoung/pen/rRKYpd"
+          }
+        ]
       },
       {
         "name": "Element Plus",
         "github": "element-plus/element-plus",
-        "npm": "element-plus"
+        "npm": "element-plus",
+        "reproduceLinks": [
+          {
+            "name": "jsfiddle",
+            "link": "https://jsfiddle.net/iamkun/ods20k7t/"
+          },
+          {
+            "name": "codepen",
+            "link": "https://codepen.io/iamkun/pen/YzWMaVr"
+          }
+        ]
       }
     ],
     "issueTitleHint": "Issue 标题",
@@ -63,16 +83,6 @@
     "versionVueHint": "Vue 版本",
     "reproduceHint": "重现链接",
     "reproduceHintSamll": "请提供可以重现 issue 的链接或者项目，例如：",
-    "reproduceLinks": [
-      {
-        "name": "jsfiddle",
-        "link": "https://jsfiddle.net/mmx38qxw/"
-      },
-      {
-        "name": "codepen",
-        "link": "https://codepen.io/pen"
-      }
-    ],
     "stepsHint": "重现步骤",
     "stepsHintSmall": "<p>请清晰的描述重现该 issue 的步骤，没有清晰重现步骤的 issue 将不会被修复。标有<code>need repro</code>的 issue 如果在 7 天内不提供相关步骤，将直接被关闭。</p>",
     "expectHint": "期待的行为",
@@ -113,12 +123,32 @@
       {
         "name": "Element UI",
         "github": "ElemeFE/element",
-        "npm": "element-ui"
+        "npm": "element-ui",
+        "reproduceLinks": [
+          {
+            "name": "jsfiddle",
+            "link": "https://jsfiddle.net/mmx38qxw/"
+          },
+          {
+            "name": "codepen",
+            "link": "https://codepen.io/ziyoung/pen/rRKYpd"
+          }
+        ]
       },
       {
         "name": "Element Plus",
         "github": "element-plus/element-plus",
-        "npm": "element-plus"
+        "npm": "element-plus",
+        "reproduceLinks": [
+          {
+            "name": "jsfiddle",
+            "link": "https://jsfiddle.net/iamkun/ods20k7t/"
+          },
+          {
+            "name": "codepen",
+            "link": "https://codepen.io/iamkun/pen/YzWMaVr"
+          }
+        ]
       }
     ],
     "issueTitleHint": "Issue Title",
@@ -165,16 +195,6 @@
     "versionVueHint": "Vue Version",
     "reproduceHint": "Reproduction Link",
     "reproduceHintSamll": "Use jsfiddle/codepen to reproduce issue. If it requires build setup, then create a project and provide a link to a repository.",
-    "reproduceLinks": [
-      {
-        "name": "jsfiddle",
-        "link": "https://jsfiddle.net/mmx38qxw/"
-      },
-      {
-        "name": "codepen",
-        "link": "https://codepen.io/pen"
-      }
-    ],
     "stepsHint": "Steps to reproduce",
     "stepsHintSmall": "<p>It is <b>required</b> that you clearly describe the steps necessary to reproduce the issue you are running into. Issues with no clear repro steps will not be triaged. If an issue labeled <code>need repro</code> receives no further input from the issue author for more than 7 days, it will be closed.</p>",
     "expectHint": "What is Expected?",

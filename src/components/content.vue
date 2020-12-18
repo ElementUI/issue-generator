@@ -44,7 +44,7 @@
               small
                 p(v-text="contents.reproduceHintSamll")
                 ul
-                  li(v-for="l in contents.reproduceLinks")
+                  li(v-for="l in repo.reproduceLinks")
                     a(:href="l.link", v-text="l.name", target="_blank")
 
             el-form-item(:label="contents.stepsHint", prop="steps")
