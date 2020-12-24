@@ -187,7 +187,12 @@
         rules['reproduce'].push({
           trigger: 'blur',
           validator: (rule, val, cb) => {
-            if (/(github|jsfiddle|codepen|jsbin)/ig.test(val)) {
+            if (this.repo.reproduceLinks.some(_ => _.link === val)) {
+              cb({
+                'zh-CN': '请填写正确的重现链接，不要直接复制示意链接',
+                'en-US': 'Please provide correct link, do not copy the demo link directly'
+              }[this.lang])
+            } else if (/(github|jsfiddle|codepen|jsbin)/ig.test(val)) {
               cb()
             } else {
               cb({
@@ -310,7 +315,8 @@ ${this.form.desc}
 
       async fetchRepositoryVersion () {
         const response = await axios.get(this.api.repositoryVersion)
-        this.version.repo = Object.keys(response.data.versions)
+        // remove deprecated versions
+        this.version.repo = Object.keys(response.data.versions).filter(_ => !response.data.versions[_].deprecated)
         this.form.versionRepository = this.version.repo[0]
       },
 
