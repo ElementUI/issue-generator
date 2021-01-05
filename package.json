@@ -11,7 +11,7 @@
     "deploy": "npm run build && gh-pages -d dist"
   },
   "dependencies": {
-    "axios": "^0.15.3",
+    "axios": "^0.21.1",
     "copy-to-clipboard": "^3.0.5",
     "element-ui": "^1.2.3",
     "hanabi": "^0.4.0",
