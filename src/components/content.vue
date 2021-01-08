@@ -162,8 +162,8 @@
 
       api () {
         return {
-          repositoryVersion: `https://registry.npm.taobao.org/${this.repo && this.repo.npm}`,
-          vueVersion: 'https://registry.npm.taobao.org/vue'
+          repositoryVersion: `https://data.jsdelivr.com/v1/package/npm/${this.repo && this.repo.npm}`,
+          vueVersion: 'https://data.jsdelivr.com/v1/package/npm/vue'
         }
       },
 
@@ -316,13 +316,13 @@ ${this.form.desc}
       async fetchRepositoryVersion () {
         const response = await axios.get(this.api.repositoryVersion)
         // remove deprecated versions
-        this.version.repo = Object.keys(response.data.versions).filter(_ => !response.data.versions[_].deprecated)
+        this.version.repo = response.data.versions.filter(_ => ['1.0.2-beta.12'].indexOf(_) < 0)
         this.form.versionRepository = this.version.repo[0]
       },
 
       async fetchVueVersion () {
         const response = await axios.get(this.api.vueVersion)
-        this.version.vue = Object.keys(response.data.versions)
+        this.version.vue = response.data.versions
         this.form.versionVue = this.versionVue[0]
       }
     },
