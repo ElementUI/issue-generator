@@ -31,6 +31,10 @@
           {
             "name": "codepen",
             "link": "https://codepen.io/iamkun/pen/YzWMaVr"
+          },
+					{
+            "name": "codesandbox",
+            "link": "https://codesandbox.io/s/element-plus-spa-ms973?file=/src/App.vue"
           }
         ]
       }
