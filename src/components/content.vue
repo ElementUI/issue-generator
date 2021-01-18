@@ -42,7 +42,7 @@
 
             el-form-item
               small
-                p(v-text="contents.reproduceHintSamll")
+                p(v-text="contents.reproduceHintSmall")
                 ul
                   li(v-for="l in repo.reproduceLinks")
                     a(:href="l.link", v-text="l.name", target="_blank")
