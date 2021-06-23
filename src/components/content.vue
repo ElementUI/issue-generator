@@ -192,7 +192,7 @@
                 'zh-CN': '请填写正确的重现链接，不要直接复制示意链接',
                 'en-US': 'Please provide correct link, do not copy the demo link directly'
               }[this.lang])
-            } else if (/(github|jsfiddle|codepen|jsbin|codesandbox)/ig.test(val)) {
+            } else if (/(github|gitlab|bitbucket|jsfiddle|codepen|jsbin|codesandbox)/ig.test(val)) {
               cb()
             } else {
               cb({
